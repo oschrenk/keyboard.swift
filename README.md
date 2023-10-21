@@ -32,6 +32,13 @@ cd keyboard.swift
 make install
 ```
 
+**Via homebrew**
+
+```
+brew tap oschrenk/made git@github.com:oschrenk/homebrew-made
+brew install oschrenk/made/keyboard
+```
+
 ## Development
 
 **Dependencies**
