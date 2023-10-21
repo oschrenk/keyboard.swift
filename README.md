@@ -20,6 +20,18 @@ Configure
 keyboard set --idle-dim-time 0.5 --brightness 0.5 --auto-brightness true
 ```
 
+## Installation
+
+**Via Github**
+
+```
+git clone git@github.com:oschrenk/keyboard.swift.git
+cd keyboard.swift
+
+# installs to $(HOME)/.local/bin/keyboard
+make install
+```
+
 ## Development
 
 **Dependencies**
