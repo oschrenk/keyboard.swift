@@ -42,11 +42,11 @@ extension Keyboard {
         throw ValidationError("Idle Time needs to be 0 or larger.")
       }
 
-      guard brightness ?? 0 > 1 else {
+      guard brightness ?? 1 <= 1 else {
         throw ValidationError("Brightness too large. Needs to between (or at) 0 and 1.")
       }
 
-      guard brightness ?? 0 < 0 else {
+      guard brightness ?? 0 >= 0 else {
         throw ValidationError("Brightness too small. Needs to between (or at) 0 and 1.")
       }
     }
