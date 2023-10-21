@@ -28,16 +28,12 @@ keyboard set --idle-dim-time 0.5 --brightness 0.5 --auto-brightness true
 brew install swiftlint
 ```
 
-**Compile and run**
-
-```
-swift build
-swift run keyboard get
-```
+- **Build** `make build`
+- **Run** `make run`
 
 ## Release
 
 ```
-swift build -c release --arch arm64
-# artifact produced in ./.build/release/keyboard
+make release
+# produces artifact in in ./.build/release/keyboard
 ```
